@@ -1,0 +1,39 @@
+
+ #janela {
+   border: 1px solid black;
+   background-color: lightyellow;
+   float:left;
+   display: none;
+ }
+ #barra_titulo {
+   position: relative;
+   top: 0px;
+   left: 0px;
+   heght: 15px;
+   width: 497px;
+   border-bottom: 1px solid black;
+   float: left;
+   background-color: DarkBlue;
+ }
+ #barra_status {
+   position: absolute;
+   display: none;
+   top: 311px;
+   left: 0px;
+   heght: 15px;
+   width: 500px;
+   border-top: 1px solid black;
+   border-button: 1px solid black;
+   float: left;
+   background-color: lightgray;
+ }
+ #titulo {
+   border: 0px solid black;
+   width: 473px;
+   float: left;
+ }
+ #bt_fechar {
+   border: 0px solid black;
+   width: 30px;
+   float: left;
+ }

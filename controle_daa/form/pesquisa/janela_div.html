@@ -1,0 +1,73 @@
+<html>
+<head>
+<style>
+ #janela {
+   position: absolute;
+   top: 50px;
+   left: 200px;
+   height: 150px;
+   width: 300px;
+   border: 1px solid black;
+   float:left;
+ }
+ #barra_titulo {
+   top: 0px;
+   left: 0px;
+   heght: 15px;
+   width: 295px;
+   border: 0px solid black;
+   float: left;
+   background-color:lightblue;
+ }
+ #titulo {
+   width: 260px;
+   float: left;
+ }
+ #bt_fechar {
+   width: 25px;
+   float: center;
+ }
+</style>
+<script>
+ function fechador() {
+   fecha = document.getElementById("bt_fechar");
+   fecha.onclick=function(){
+      document.getElementById("janela").style.visibility="hidden";
+   }
+ }
+</script>
+</head>
+<body>
+  <div id="janela">
+    <table border=0 width="100%">
+	 <tr>
+	  <td colspan=2>
+	   <div id="barra_titulo">
+	   <table>
+	    <tr>
+		  <td width="90%">
+		   <div id="titulo">
+			<legend>Titulo da janela</legend>
+		   </div>
+		  </td>
+		  <td width="10%">
+		   <div id="bt_fechar">
+			<input type="button" value="X" onclick="fechador();">
+		   </div>
+		  </td>		
+		</tr>
+	   </table>
+	   </div>
+	  </td>
+	 </tr>
+	 <tr>
+	  <td colspan=2>
+	    <br>
+	    conteudo conteudo <br/>
+	    conteudo conteudo <br/>
+	  </td>
+	 </tr>
+	</table> 
+  </div>
+</body>
+</html>

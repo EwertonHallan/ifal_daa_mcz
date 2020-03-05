@@ -1,0 +1,54 @@
+.XulMenu {
+	FONT-SIZE: 12px; FONT-FAMILY: tahoma, georgia, verdana; moz-user-select: none
+}
+.XulMenu .button {
+	BORDER-RIGHT: #ece9d8 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #ece9d8 1px solid; DISPLAY: block; PADDING-LEFT: 6px; PADDING-BOTTOM: 4px; BORDER-LEFT: #ece9d8 1px solid; CURSOR: default; COLOR: #000000; LINE-HEIGHT: normal; PADDING-TOP: 5px; BORDER-BOTTOM: #ece9d8 1px solid; WHITE-SPACE: nowrap; POSITION: relative; TEXT-DECORATION: none
+}
+.XulMenu .button:hover {
+	BORDER-RIGHT: #ece9d8 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #ece9d8 1px solid; DISPLAY: block; PADDING-LEFT: 6px; PADDING-BOTTOM: 4px; BORDER-LEFT: #ece9d8 1px solid; CURSOR: default; COLOR: #000000; LINE-HEIGHT: normal; PADDING-TOP: 5px; BORDER-BOTTOM: #ece9d8 1px solid; WHITE-SPACE: nowrap; POSITION: relative; TEXT-DECORATION: none
+}
+.XulMenu .button-active {
+	BORDER-RIGHT: #ece9d8 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #ece9d8 1px solid; DISPLAY: block; PADDING-LEFT: 6px; PADDING-BOTTOM: 4px; BORDER-LEFT: #ece9d8 1px solid; CURSOR: default; COLOR: #000000; LINE-HEIGHT: normal; PADDING-TOP: 5px; BORDER-BOTTOM: #ece9d8 1px solid; WHITE-SPACE: nowrap; POSITION: relative; TEXT-DECORATION: none
+}
+.XulMenu .button-active:hover {
+	BORDER-RIGHT: #ece9d8 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #ece9d8 1px solid; DISPLAY: block; PADDING-LEFT: 6px; PADDING-BOTTOM: 4px; BORDER-LEFT: #ece9d8 1px solid; CURSOR: default; COLOR: #000000; LINE-HEIGHT: normal; PADDING-TOP: 5px; BORDER-BOTTOM: #ece9d8 1px solid; WHITE-SPACE: nowrap; POSITION: relative; TEXT-DECORATION: none
+}
+.XulMenu .button:hover {
+	BORDER-LEFT-COLOR: #ffffff; BORDER-BOTTOM-COLOR: #aca899; BORDER-TOP-COLOR: #ffffff; BORDER-RIGHT-COLOR: #aca899
+}
+.XulMenu .button-active {
+	BORDER-LEFT-COLOR: #aca899; BORDER-BOTTOM-COLOR: #ffffff; BORDER-TOP-COLOR: #aca899; BORDER-RIGHT-COLOR: #ffffff
+}
+.XulMenu .button-active:hover {
+	BORDER-LEFT-COLOR: #aca899; BORDER-BOTTOM-COLOR: #ffffff; BORDER-TOP-COLOR: #aca899; BORDER-RIGHT-COLOR: #ffffff
+}
+.XulMenu .item {
+	PADDING-RIGHT: 30px; DISPLAY: block; PADDING-LEFT: 20px; BACKGROUND: #ffffff; PADDING-BOTTOM: 3px; CURSOR: default; COLOR: #000000; LINE-HEIGHT: normal; PADDING-TOP: 3px; WHITE-SPACE: nowrap; POSITION: relative; TEXT-DECORATION: none
+}
+.XulMenu .item:hover {
+	PADDING-RIGHT: 30px; DISPLAY: block; PADDING-LEFT: 20px; BACKGROUND: #ffffff; PADDING-BOTTOM: 3px; CURSOR: default; COLOR: #000000; LINE-HEIGHT: normal; PADDING-TOP: 3px; WHITE-SPACE: nowrap; POSITION: relative; TEXT-DECORATION: none
+}
+.XulMenu .item-active {
+	PADDING-RIGHT: 30px; DISPLAY: block; PADDING-LEFT: 20px; BACKGROUND: #ffffff; PADDING-BOTTOM: 3px; CURSOR: default; COLOR: #000000; LINE-HEIGHT: normal; PADDING-TOP: 3px; WHITE-SPACE: nowrap; POSITION: relative; TEXT-DECORATION: none
+}
+.XulMenu .item-active:hover {
+	PADDING-RIGHT: 30px; DISPLAY: block; PADDING-LEFT: 20px; BACKGROUND: #ffffff; PADDING-BOTTOM: 3px; CURSOR: default; COLOR: #000000; LINE-HEIGHT: normal; PADDING-TOP: 3px; WHITE-SPACE: nowrap; POSITION: relative; TEXT-DECORATION: none
+}
+.XulMenu .item:hover {
+	BACKGROUND: #316ac5; COLOR: #ffffff
+}
+.XulMenu .item-active {
+	BACKGROUND: #316ac5; COLOR: #ffffff
+}
+.XulMenu .item-active:hover {
+	BACKGROUND: #316ac5; COLOR: #ffffff
+}
+.XulMenu .section {
+	BORDER-RIGHT: #716f64 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #f1efe2 1px solid; PADDING-LEFT: 2px; Z-INDEX: -1; BACKGROUND: #ffffff; VISIBILITY: hidden; PADDING-BOTTOM: 1px; BORDER-LEFT: #f1efe2 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #716f64 1px solid; POSITION: absolute
+}
+.XulMenu .arrow {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; RIGHT: 8px; BORDER-BOTTOM-WIDTH: 0px; POSITION: absolute; TOP: 7px; BORDER-RIGHT-WIDTH: 0px
+}
+ HTML .XulMenu TD {
+	POSITION: relative
+}

@@ -1,0 +1,70 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/janela.css" />
+	<link rel="stylesheet" type="text/css" href="../formulario.css" />
+	<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+	<script type="text/javascript" src="js/pesquisa.js"></script>
+	<script type="text/javascript" src="js/janela.js"></script>
+</head>
+<body>
+ <br/>
+ <form name="outputForm">
+  <label for="texto_pesq">Campo:</label>
+  <input type=text value="" name="textofilho" size=20 />
+  <input type=button id="bt_pesq" name="bt_pesq" onclick="exibir();" value="popup" />  
+ </form>
+ 
+ <div id="janela">
+   <table border=0 width="100%">
+	 <tr>
+	  <td colspan=2>
+	   <div id="barra_titulo">
+	   <table>
+	    <tr>
+		  <td width="90%">
+		   <div id="titulo">
+			<font FACE="Verdana" size=2 color="white"><b>PESQUISA DE DOCENTE</b></font>
+		   </div>
+		  </td>
+		  <td width="10%">
+		   <div id="bt_fechar">
+			<input type="button" value=" X " onclick="ocultar();">
+		   </div>
+		  </td>		
+		</tr>
+	   </table>
+	   </div>
+	  </td>
+	 </tr>
+	 <tr>
+	  <td colspan=2>
+	    <br>
+	    <form name="form_pesquisa" id="form_pesquisa" method="post" action="">
+	      <label for="pesquisaDados">Texto:</label>
+	      <input type="text" name="pesquisaDados" id="pesquisaDados" value="" placeholder="Digite o texto a pesquisar ..." size="55"/>
+	    </form>
+	  </td>
+	 </tr>
+	 <tr>
+	  <td colspan=2>
+        <!-- carregad imagem de processamento -->
+	    <div id="contentLoading">
+		  <div id="loading"></div>
+	    </div>	
+	  </td>
+	 </tr>
+	 <tr>
+	  <td colspan=2>
+        <!-- mostra resultado da pesquisa -->
+	    <div id="MostraPesq"></div>
+	  </td>
+	 </tr>
+   </table>
+   <div id="barra_status">
+     <div id="titulo">
+	   <font FACE="Verdana" size=2 color="white"><b>PESQUISA DE DOCENTE</b></font>
+	 </div> 
+   </div>
+ </div>
+</body>
+</html>
